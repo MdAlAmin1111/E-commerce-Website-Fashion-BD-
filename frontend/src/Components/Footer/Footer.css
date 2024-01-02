@@ -46,8 +46,15 @@
     gap: 30px;
     width: 100%;
     margin-bottom: 30px;
-    color: #1a1a1a;
-    font-size: 20px;
+    /* color: #1a1a1a; */
+    color: black;
+    font-size: 14px;
+}
+.footer-copyright p{
+    text-align: center;
+}
+.colorChange{
+    color: red;
 }
 .footer-copyright hr{
     width: 80%;

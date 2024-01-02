@@ -5,8 +5,8 @@ import instagram_icon from '../Assets/instagram_icon.png';
 import pintester_icon from '../Assets/pintester_icon.png';
 import whatsapp_icon from '../Assets/whatsapp_icon.png';
 
-const Footer = () =>{
-    return(
+const Footer = () => {
+    return (
         <div className="footer">
             <div className="footer-logo">
                 <img src={footer_logo} alt="" />
@@ -32,7 +32,11 @@ const Footer = () =>{
             </div>
             <div className="footer-copyright">
                 <hr />
-                <p>Copyright @ 2023 - All Right Reserved</p>
+                <p>COPYRIGHT&copy;2023 <span className="colorChange">FASHION BD</span>, ALL RIGHT RESERVED. DESIGNED & DEVLOPED BY <span className="colorChange">MD. AL-AMIN</span></p>
+                {/* <p>
+                    copyright&copy;2023 <a href="#">ecstasy bd</a>, all right
+                    reserved. designed & devloped by <a href="#">md. al-amin</a>
+                </p> */}
             </div>
         </div>
     )

@@ -145,32 +145,35 @@
         font-size: 13px;
     }
 }
-
 @media(max-width:500px) {
     .newletter {
         height: 25vh;
         width: 100%;
         padding: 0;
-        gap: 15px;
+        gap: 15px ;
     }
 
     .newletter h1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .newletter p {
-        font-size: 13px;
-        max-width: 200px;
-        text-align: center;
+        font-size: 12px;
     }
 
     .newletter div {
-        width: 290px;
-
+        width: 400px;
+        height: 40px;
     }
 
     .newletter div input {
-        width: 130px;
+        width: 200px;
+        font-size: 13px;
     }
 
+    .newletter div button {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
 }
